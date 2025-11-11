@@ -1,0 +1,11 @@
+Package: m6APrediction
+Title: A Machine Learning Predictor for m6A RNA Modification Sites
+Version: 1.0.0
+Depends: R (>= 3.5.0)
+Imports: randomForest
+Authors@R: person("Shengyi", "Gu", email = "Shengyi.Gu23@student.xjtlu.edu.cn", role = c("aut", "cre"))
+Description: A robust R package leveraging machine learning models (Random Forest) to predict N6-methyladenosine (m6A) modification status in RNA transcripts based on sequence and genomic features.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
